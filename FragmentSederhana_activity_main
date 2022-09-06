@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Hello world, ini adalah layout dari activity utama!!"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:paddingBottom="15dp"
+            android:text="jika kalian ingin melihat fragment layout, kliklah button merah di bawah "/>
+
+    <Button
+        android:text="Fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button_Fr"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/background_light"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="40dp"
+        android:id="@+id/fr_layout">
+
+    </FrameLayout>
+
+
+</LinearLayout>
